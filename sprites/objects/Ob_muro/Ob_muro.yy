@@ -6,8 +6,8 @@
   "name":"Ob_muro",
   "overriddenProperties":[],
   "parent":{
-    "name":"sprites",
-    "path":"sprites.yyp",
+    "name":"grupo1",
+    "path":"folders/grupo1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
