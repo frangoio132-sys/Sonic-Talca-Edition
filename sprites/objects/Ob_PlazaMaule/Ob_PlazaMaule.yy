@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_SueloTalca",
+  "%Name":"Ob_PlazaMaule",
   "eventList":[],
   "managed":true,
-  "name":"Ob_SueloTalca",
+  "name":"Ob_PlazaMaule",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sp_SueloTalca",
-    "path":"sprites/Sp_SueloTalca/Sp_SueloTalca.yy",
+    "name":"Sp_PlazaMaule",
+    "path":"sprites/Sp_PlazaMaule/Sp_PlazaMaule.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -10,7 +10,7 @@
   },
   "defaultScriptType":0,
   "Folders":[
-    {"$GMFolder":"","%Name":"grupo1","folderPath":"folders/grupo1.yy","name":"grupo1","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -24,6 +24,7 @@
   "resources":[
     {"id":{"name":"Ob_Edificio","path":"objects/Ob_Edificio/Ob_Edificio.yy",},},
     {"id":{"name":"Ob_muro","path":"objects/Ob_muro/Ob_muro.yy",},},
+    {"id":{"name":"Ob_PlazaMaule","path":"objects/Ob_PlazaMaule/Ob_PlazaMaule.yy",},},
     {"id":{"name":"Ob_SueloTalca","path":"objects/Ob_SueloTalca/Ob_SueloTalca.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Sp_BossNormal","path":"sprites/Sp_BossNormal/Sp_BossNormal.yy",},},
