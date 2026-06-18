@@ -6,8 +6,8 @@
   "name":"Ob_muro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"ObjTerreno",
+    "path":"folders/Objetos/ObjTerreno.yy",
   },
   "parentObjectId":null,
   "persistent":false,
