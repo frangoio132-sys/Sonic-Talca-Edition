@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"VerColisionPlataforma",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"VerColisionPlataforma",
+  "parent":{
+    "name":"Personaje",
+    "path":"folders/Scripts/Personaje.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

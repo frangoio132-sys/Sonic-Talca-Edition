@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"VerColisionTecho",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"VerColisionTecho",
+  "parent":{
+    "name":"Personaje",
+    "path":"folders/Scripts/Personaje.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
