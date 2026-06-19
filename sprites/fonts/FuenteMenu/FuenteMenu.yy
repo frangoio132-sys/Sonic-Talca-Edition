@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"FuenteMenu",
   "parent":{
-    "name":"sprites",
-    "path":"sprites.yyp",
+    "name":"Fuentes",
+    "path":"folders/Fuentes.yy",
   },
   "pointRounding":0,
   "ranges":[
