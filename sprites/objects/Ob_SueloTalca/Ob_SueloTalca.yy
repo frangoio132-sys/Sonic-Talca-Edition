@@ -6,8 +6,8 @@
   "name":"Ob_SueloTalca",
   "overriddenProperties":[],
   "parent":{
-    "name":"ObjTerreno",
-    "path":"folders/Objetos/ObjTerreno.yy",
+    "name":"Terreno",
+    "path":"folders/Objetos/Terreno.yy",
   },
   "parentObjectId":null,
   "persistent":false,

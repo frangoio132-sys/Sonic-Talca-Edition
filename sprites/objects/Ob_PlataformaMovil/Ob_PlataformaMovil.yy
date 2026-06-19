@@ -1,15 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Edificio",
-  "eventList":[],
+  "%Name":"Ob_PlataformaMovil",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Ob_Edificio",
+  "name":"Ob_PlataformaMovil",
   "overriddenProperties":[],
   "parent":{
     "name":"Terreno",
     "path":"folders/Objetos/Terreno.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Ob_muro",
+    "path":"objects/Ob_muro/Ob_muro.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sp_Edificio",
-    "path":"sprites/Sp_Edificio/Sp_Edificio.yy",
+    "name":"SprPlataforma",
+    "path":"sprites/SprPlataforma/SprPlataforma.yy",
   },
   "spriteMaskId":null,
   "visible":true,

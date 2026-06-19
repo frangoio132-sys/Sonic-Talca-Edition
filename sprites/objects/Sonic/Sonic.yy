@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_muro",
+  "%Name":"Sonic",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Ob_muro",
+  "name":"Sonic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Terreno",
-    "path":"folders/Objetos/Terreno.yy",
+    "name":"Sonic",
+    "path":"folders/Objetos/Sonic.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +30,14 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sp_Muro",
-    "path":"sprites/Sp_Muro/Sp_Muro.yy",
+    "name":"SprSonic",
+    "path":"sprites/SprSonic/SprSonic.yy",
   },
-  "spriteMaskId":null,
-  "visible":false,
+  "spriteMaskId":{
+    "name":"SprHitboxSonic",
+    "path":"sprites/SprHitboxSonic/SprHitboxSonic.yy",
+  },
+  "visible":true,
 }

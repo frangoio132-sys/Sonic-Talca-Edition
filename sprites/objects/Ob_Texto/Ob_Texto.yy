@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Edificio",
+  "%Name":"Ob_Texto",
   "eventList":[],
   "managed":true,
-  "name":"Ob_Edificio",
+  "name":"Ob_Texto",
   "overriddenProperties":[],
   "parent":{
     "name":"Terreno",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"Sp_Edificio",
-    "path":"sprites/Sp_Edificio/Sp_Edificio.yy",
+    "name":"Sp_Texto",
+    "path":"sprites/Sp_Texto/Sp_Texto.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Edificio",
-  "eventList":[],
+  "%Name":"Monedas",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Ob_Edificio",
+  "name":"Monedas",
   "overriddenProperties":[],
   "parent":{
-    "name":"Terreno",
-    "path":"folders/Objetos/Terreno.yy",
+    "name":"Coleccionables",
+    "path":"folders/Objetos/Coleccionables.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sp_Edificio",
-    "path":"sprites/Sp_Edificio/Sp_Edificio.yy",
+    "name":"Sp_Moneda100",
+    "path":"sprites/Sp_Moneda100/Sp_Moneda100.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Edificio",
-  "eventList":[],
+  "%Name":"Ob_ContadorMonedas",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Ob_Edificio",
+  "name":"Ob_ContadorMonedas",
   "overriddenProperties":[],
   "parent":{
-    "name":"Terreno",
-    "path":"folders/Objetos/Terreno.yy",
+    "name":"HUD",
+    "path":"folders/Objetos/HUD.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sp_Edificio",
-    "path":"sprites/Sp_Edificio/Sp_Edificio.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

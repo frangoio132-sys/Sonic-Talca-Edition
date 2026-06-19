@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_muro",
+  "%Name":"Huebot",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Ob_muro",
+  "name":"Huebot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Terreno",
-    "path":"folders/Objetos/Terreno.yy",
+    "name":"Enemigos",
+    "path":"folders/Objetos/Enemigos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +30,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sp_Muro",
-    "path":"sprites/Sp_Muro/Sp_Muro.yy",
+    "name":"SprHueBot",
+    "path":"sprites/SprHueBot/SprHueBot.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
