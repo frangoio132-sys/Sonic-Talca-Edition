@@ -25,7 +25,7 @@
 #region Salto
 	if (keyboard_check_pressed(vk_space)){
 		if (collision_rectangle(x-8,y,x+8,y+1,Ob_muro,false,false) && vspeed==0){
-		 vspeed = -7;
+		 vspeed = -9;
 	}
 }
 #endregion 

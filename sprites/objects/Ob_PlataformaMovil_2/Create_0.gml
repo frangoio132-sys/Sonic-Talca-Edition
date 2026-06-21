@@ -2,8 +2,8 @@
 vspeed=1;
 
 //Rango que se mueve
-yfrom=395;
-yto=570;
+yfrom=319;
+yto=441;
 
 //Traspasable
 onesided=true;

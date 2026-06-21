@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Subsuelo",
+  "%Name":"Obj_Checkpoint",
   "eventList":[],
   "managed":true,
-  "name":"Ob_Subsuelo",
+  "name":"Obj_Checkpoint",
   "overriddenProperties":[],
   "parent":{
     "name":"Terreno",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sp_Subsuelo",
-    "path":"sprites/Sp_Subsuelo/Sp_Subsuelo.yy",
+    "name":"Sp_PuestoCompleto",
+    "path":"sprites/Sp_PuestoCompleto/Sp_PuestoCompleto.yy",
   },
   "spriteMaskId":null,
   "visible":true,

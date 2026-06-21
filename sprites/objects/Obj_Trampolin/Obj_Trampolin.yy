@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Subsuelo",
+  "%Name":"Obj_Trampolin",
   "eventList":[],
   "managed":true,
-  "name":"Ob_Subsuelo",
+  "name":"Obj_Trampolin",
   "overriddenProperties":[],
   "parent":{
     "name":"Terreno",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sp_Subsuelo",
-    "path":"sprites/Sp_Subsuelo/Sp_Subsuelo.yy",
+    "name":"Sp_Trampolin",
+    "path":"sprites/Sp_Trampolin/Sp_Trampolin.yy",
   },
   "spriteMaskId":null,
   "visible":true,

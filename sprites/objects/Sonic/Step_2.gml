@@ -37,4 +37,17 @@ var platform=collision_rectangle(x-ancho,y,x+ancho,y+15,Ob_PlataformaMovil,true,
 		
 		y+= platform.vspeed;	
 }
+var platform2=collision_rectangle(x-ancho,y,x+ancho,y+15,Ob_PlataformaMovil_2,true,true);
+	if (platform2 && vspeed == 0) {
+		x += platform2.hspeed;
+		
+		y+= platform2.vspeed;	
+}
+var platform3=collision_rectangle(x-ancho,y,x+ancho,y+15,Ob_PlataformaMovil_3,true,true);
+	if (platform3 && vspeed == 0) {
+		x += platform3.hspeed;
+		
+		y+= platform3.vspeed;	
+}
+
 #endregion}

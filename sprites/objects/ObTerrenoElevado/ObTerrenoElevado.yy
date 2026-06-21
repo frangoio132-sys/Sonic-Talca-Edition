@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Subsuelo",
+  "%Name":"ObTerrenoElevado",
   "eventList":[],
   "managed":true,
-  "name":"Ob_Subsuelo",
+  "name":"ObTerrenoElevado",
   "overriddenProperties":[],
   "parent":{
     "name":"Terreno",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sp_Subsuelo",
-    "path":"sprites/Sp_Subsuelo/Sp_Subsuelo.yy",
+    "name":"Sp_TerrenoElevado",
+    "path":"sprites/Sp_TerrenoElevado/Sp_TerrenoElevado.yy",
   },
   "spriteMaskId":null,
   "visible":true,
