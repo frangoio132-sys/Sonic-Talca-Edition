@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"ObjBotonVolver",
+  "%Name":"ObjBotonRejugar",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjBotonVolver",
+  "name":"ObjBotonRejugar",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjBotonParent","path":"objects/ObjBotonParent/ObjBotonParent.yy",},"propertyId":{"name":"button_text","path":"objects/ObjBotonParent/ObjBotonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Volver al Menu",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjBotonParent","path":"objects/ObjBotonParent/ObjBotonParent.yy",},"propertyId":{"name":"button_text","path":"objects/ObjBotonParent/ObjBotonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Reiniciar Nivel",},
   ],
   "parent":{
     "name":"Menu",
