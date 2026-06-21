@@ -1,15 +1,14 @@
 
 var distancia= point_distance(x,y,Sonic.x,Sonic.y)
 if (distancia<rango_vision){
-var direccion=sign(Sonic.x-x)
-x=x+direccion*velocidad_enemigo;
+x=x+distancia*velocidad_enemigo;
 }	
 
 if (distancia !=0){
-	if(place_free(x + distancia*velocidad_enemigo,y)) {
-		velocidad=velocidad_enemigo+Aceleracion
-		if  (velocidad<limiteX){
-			x+= distancia * velocidad;
+	if(place_free(x +distancia*velocidad_enemigo,y)) {
+		velocidad_enemigo=velocidad_enemigo+Aceleracion
+		if  (velocidad_enemigo<limiteX){
+			x+= distancia * velocidad_enemigo;
 		}else if (velocidad_enemigo>limiteX){
 			velocidad_enemigo=limiteX;
 			x+= distancia * velocidad_enemigo;
@@ -23,11 +22,11 @@ if (distancia !=0){
 if (!place_meeting(x, y + 1, Ob_muro)) {
     y += 4; 
 }
-x += velocidad_enemigo * direccion;
+x += velocidad_enemigo * distancia;
 
 // 3. Rebotar en las paredes
-if (place_meeting(x + direccion, y, Ob_muro)) {
-    direccion *= -1; // Cambia de dirección
+if (place_meeting(x + distancia, y, Ob_muro)) {
+    distancia *= -1; // Cambia de dirección
 }
 
 // 4. Morir aplastado si el jugador salta encima
