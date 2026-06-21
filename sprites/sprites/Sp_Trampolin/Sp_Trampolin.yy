@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Sp_PlazaMaule",
+  "%Name":"Sp_Trampolin",
   "bboxMode":0,
-  "bbox_bottom":999,
-  "bbox_left":90,
-  "bbox_right":899,
-  "bbox_top":490,
+  "bbox_bottom":36,
+  "bbox_left":22,
+  "bbox_right":44,
+  "bbox_top":26,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"739e0e5d-7f22-48de-aaea-c6fe5deeca9a","name":"739e0e5d-7f22-48de-aaea-c6fe5deeca9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c0c76521-a7c3-4f4c-9ba9-d65a65f7bc77","name":"c0c76521-a7c3-4f4c-9ba9-d65a65f7bc77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":1000,
+  "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"49dc6d7b-9ff2-4ac5-9484-bc85491b2bf4","blendMode":0,"displayName":"default","isLocked":false,"name":"49dc6d7b-9ff2-4ac5-9484-bc85491b2bf4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b19663df-554c-40da-82af-8b6cfa105362","blendMode":0,"displayName":"default","isLocked":false,"name":"b19663df-554c-40da-82af-8b6cfa105362","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sp_PlazaMaule",
+  "name":"Sp_Trampolin",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Sp_PlazaMaule",
+    "%Name":"Sp_Trampolin",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sp_PlazaMaule",
+    "name":"Sp_Trampolin",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"739e0e5d-7f22-48de-aaea-c6fe5deeca9a","path":"sprites/Sp_PlazaMaule/Sp_PlazaMaule.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"68e03cba-bfda-4cc0-9e99-5b62190b7f4c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0c76521-a7c3-4f4c-9ba9-d65a65f7bc77","path":"sprites/Sp_Trampolin/Sp_Trampolin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6c9dfb8c-13af-489a-825b-d9c1207ef904","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1000,
+  "width":64,
 }
