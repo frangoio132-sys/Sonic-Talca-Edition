@@ -1,10 +1,11 @@
+
 var distancia= point_distance(x,y,Sonic.x,Sonic.y)
 
 if (distancia<rango_vision){
 var direccion=sign(Sonic.x-x)
 x=x+direccion*velocidad_enemigo;
-	
-}
+}	
+
 if (distancia !=0){
 	if(place_free(x + distancia*velocidad_enemigo,y)) {
 		velocidad=velocidad_enemigo+Aceleracion
@@ -20,13 +21,13 @@ if (distancia !=0){
 	} 
 	else {
 		sprite_index=SprHueBot}
-if (!place_meeting(x, y + 1, obj_muro)) {
+if (!place_meeting(x, y + 1, Ob_muro)) {
     y += 4; 
 }
 x += velocidad_enemigo * direccion;
 
 // 3. Rebotar en las paredes
-if (place_meeting(x + direccion, y, obj_muro)) {
+if (place_meeting(x + direccion, y, Ob_muro)) {
     direccion *= -1; // Cambia de dirección
 }
 
