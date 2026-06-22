@@ -5,7 +5,7 @@ x=x+distancia*velocidad_enemigo;
 }	
 
 if (distancia !=0){
-	if(place_free(x +distancia*velocidad_enemigo,y)) {
+		if(place_free(x +distancia*velocidad_enemigo,y)) {
 		velocidad_enemigo=velocidad_enemigo+Aceleracion
 		if  (velocidad_enemigo<limiteX){
 			x+= distancia * velocidad_enemigo;
@@ -23,7 +23,6 @@ if (!place_meeting(x, y + 1, Ob_muro)) {
     y += 4; 
 }
 x += velocidad_enemigo * distancia;
-
 // 3. Rebotar en las paredes
 if (place_meeting(x + distancia, y, Ob_muro)) {
     distancia *= -1; // Cambia de dirección
