@@ -14,7 +14,7 @@ if (!place_meeting(x, y + 1, Ob_muro)) {
     y += 4; 
 }
 if (place_meeting(x + distancia, y, Ob_muro)) {
-    distancia *= -1; // Cambia de dirección
+    distancia *= -1; 
 }
 
 var _jugador = instance_place(x, y - 1, Sonic);
