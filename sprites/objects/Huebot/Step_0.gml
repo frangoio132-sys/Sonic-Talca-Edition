@@ -28,14 +28,12 @@ velocidadY=0;
 y += velocidadY;
 
 
-var _jugador = instance_place(x, y - 1, Sonic);
+var _jugador = instance_place(x, y - 2, Sonic);
 if (_jugador != noone) {
     if (_jugador.vspeed > 0) {
         instance_destroy(); // El huebot muere
         _jugador.vspeed = -5; // El jugador rebota
-    } else {
-        other.Svida -=1
-    }
+	}
 }
 if (velocidadX !=0){
 image_xscale= sign(velocidadX);	

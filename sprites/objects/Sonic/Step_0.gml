@@ -15,7 +15,7 @@
 		
 		sprite_index=SprSonicCorriendo;
 	} else {
-		sprite_index=SprSonic	
+		sprite_index=SprSonic;
 	}
 	if (sonic=0){
 	velocidad=5;
@@ -30,7 +30,7 @@
 }
 #endregion 
 
-if(coleccionable>=70){
+if(coleccionable>=67){
 	room_goto(RoomVictoria)
 	
 }
