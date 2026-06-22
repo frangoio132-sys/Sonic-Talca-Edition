@@ -27,8 +27,6 @@ velocidadY=0;
 }
 y += velocidadY;
 
-
-
 if (velocidadX !=0){
 image_xscale= sign(velocidadX);	
 }
