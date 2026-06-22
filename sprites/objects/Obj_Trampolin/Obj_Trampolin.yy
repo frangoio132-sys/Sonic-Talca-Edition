@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Obj_Trampolin",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Obj_Trampolin",
   "overriddenProperties":[],
@@ -21,12 +23,7 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[
-    {"x":24.0,"y":26.0,},
-    {"x":43.0,"y":26.0,},
-    {"x":43.0,"y":37.0,},
-    {"x":24.0,"y":37.0,},
-  ],
+  "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Jefe",
-  "eventList":[],
+  "%Name":"Obj_Trampolin2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Jefe",
+  "name":"Obj_Trampolin2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemigos",
-    "path":"folders/Objetos/Enemigos.yy",
+    "name":"Terreno",
+    "path":"folders/Objetos/Terreno.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sp_BossNormal",
-    "path":"sprites/Sp_BossNormal/Sp_BossNormal.yy",
+    "name":"Sp_Trampolin",
+    "path":"sprites/Sp_Trampolin/Sp_Trampolin.yy",
   },
   "spriteMaskId":null,
   "visible":true,
