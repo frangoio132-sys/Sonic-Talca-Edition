@@ -30,7 +30,7 @@
 }
 #endregion 
 
-if(coleccionable>=7){
+if(coleccionable>=70){
 	room_goto(RoomVictoria)
 	
 }
