@@ -98,6 +98,7 @@
     {"id":{"name":"Sp_TerrenoElevado","path":"sprites/Sp_TerrenoElevado/Sp_TerrenoElevado.yy",},},
     {"id":{"name":"Sp_Trampolin","path":"sprites/Sp_Trampolin/Sp_Trampolin.yy",},},
     {"id":{"name":"Sp_TrampolinS","path":"sprites/Sp_TrampolinS/Sp_TrampolinS.yy",},},
+    {"id":{"name":"Sp_vida","path":"sprites/Sp_vida/Sp_vida.yy",},},
     {"id":{"name":"SprBoton","path":"sprites/SprBoton/SprBoton.yy",},},
     {"id":{"name":"SprDerrota","path":"sprites/SprDerrota/SprDerrota.yy",},},
     {"id":{"name":"SprHitboxSonic","path":"sprites/SprHitboxSonic/SprHitboxSonic.yy",},},
