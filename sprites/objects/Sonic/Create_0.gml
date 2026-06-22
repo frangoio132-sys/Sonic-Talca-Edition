@@ -16,7 +16,6 @@ coleccionable=0;
 
 //Dimensiones
 altura=42;
-<<<<<<< HEAD
 ancho=22
 
 Herido=true;
@@ -33,6 +32,3 @@ Golpe = function()
 		
 	}
 }
-=======
-ancho=22
->>>>>>> eab23b50cccde49d1ac93c91fa6fdaa52bf5c0c9
