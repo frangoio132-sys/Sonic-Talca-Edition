@@ -1,0 +1,1 @@
+other.Svida=0;
