@@ -9,5 +9,3 @@ grav=2;
 velocidadX=0;
 
 velocidadY=0;
-
-band=0;

@@ -16,7 +16,7 @@ coleccionable=0;
 
 //Dimensiones
 altura=42;
-ancho=22
+ancho=22;
 
 Herido=true;
 parpadeando=true;
