@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprHueBot",
-    "path":"sprites/SprHueBot/SprHueBot.yy",
+    "name":"SprHuebotRun",
+    "path":"sprites/SprHuebotRun/SprHuebotRun.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Texto",
+  "%Name":"Ob_Limite",
   "eventList":[],
   "managed":true,
-  "name":"Ob_Texto",
+  "name":"Ob_Limite",
   "overriddenProperties":[],
   "parent":{
     "name":"Terreno",
@@ -26,11 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sp_Texto",
-    "path":"sprites/Sp_Texto/Sp_Texto.yy",
+    "name":"Sp_Limite",
+    "path":"sprites/Sp_Limite/Sp_Limite.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
