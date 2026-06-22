@@ -1,21 +1,32 @@
+velocidadX = direcc * velocidad_enemigo;
+velocidadY = grav;
 
-var distancia= point_distance(x,y,Sonic.x,Sonic.y)
-if (distancia<rango_vision){
-x=x+distancia*velocidad_enemigo;
-}	
+if (place_meeting(x + velocidadX, y, Ob_muro)){
+	while (!place_meeting(x + sign(velocidadX), y, Ob_muro)){
+	x +=sign(velocidadX);	
+	}
+velocidadX=0;
+direcc=-1;
+}
+x += velocidadX;
 
-if (distancia !=0){
-		image_xscale=distancia;
-		sprite_index=SprHuebotRun;
-	} 
-	else {
-		sprite_index=SprHueBot}
-if (!place_meeting(x, y + 1, Ob_muro)) {
-    y += 4; 
+if (place_meeting(x + velocidadX, y, Ob_Limite)){
+	while (!place_meeting(x + sign(velocidadX), y, Ob_Limite)){
+	x +=sign(velocidadX);	
+	}
+velocidadX=0;
+direcc=-1;
+
 }
-if (place_meeting(x + distancia, y, Ob_muro)) {
-    distancia *= -1; 
+
+if (place_meeting(x, y + velocidadY, Ob_muro)){
+	while (!place_meeting(x, y + sign(velocidadY), Ob_muro)){
+	y +=sign(velocidadY);	
+	}
+velocidadY=0;
 }
+y += velocidadY;
+
 
 var _jugador = instance_place(x, y - 1, Sonic);
 if (_jugador != noone) {
@@ -25,4 +36,7 @@ if (_jugador != noone) {
     } else {
         other.Svida -=1
     }
+}
+if (velocidadX !=0){
+image_xscale= sign(velocidadX);	
 }
