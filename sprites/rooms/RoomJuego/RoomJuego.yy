@@ -276,6 +276,9 @@
     {"name":"inst_400AD64","path":"rooms/RoomJuego/RoomJuego.yy",},
     {"name":"inst_516858F4","path":"rooms/RoomJuego/RoomJuego.yy",},
     {"name":"inst_1A0573E5","path":"rooms/RoomJuego/RoomJuego.yy",},
+    {"name":"inst_374F69F6","path":"rooms/RoomJuego/RoomJuego.yy",},
+    {"name":"inst_49A6FAE","path":"rooms/RoomJuego/RoomJuego.yy",},
+    {"name":"inst_33E09003","path":"rooms/RoomJuego/RoomJuego.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -550,6 +553,9 @@
         {"$GMRInstance":"v4","%Name":"inst_400AD64","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_400AD64","objectId":{"name":"Obj_Trampolin","path":"objects/Obj_Trampolin/Obj_Trampolin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":7552.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_516858F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_516858F4","objectId":{"name":"ObTerrenoElevado","path":"objects/ObTerrenoElevado/ObTerrenoElevado.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6944.0,"y":224.0,},
         {"$GMRInstance":"v4","%Name":"inst_1A0573E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A0573E5","objectId":{"name":"Ob_muro","path":"objects/Ob_muro/Ob_muro.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6944.0,"y":224.0,},
+        {"$GMRInstance":"v4","%Name":"inst_374F69F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_374F69F6","objectId":{"name":"plumas","path":"objects/plumas/plumas.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7808.0,"y":160.0,},
+        {"$GMRInstance":"v4","%Name":"inst_49A6FAE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49A6FAE","objectId":{"name":"plumas","path":"objects/plumas/plumas.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7808.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_33E09003","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33E09003","objectId":{"name":"plumas","path":"objects/plumas/plumas.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7808.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_77C8CD62","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_77C8CD62","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Sp_Nube","path":"sprites/Sp_Nube/Sp_Nube.yy",},"x":160.0,"y":64.0,},
