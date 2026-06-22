@@ -1,2 +1,2 @@
-Herido=true
-image_alpha=1
+Herido=true;
+image_alpha=1;
