@@ -1,15 +1,24 @@
 {
   "$GMObject":"",
   "%Name":"Ob_Yema",
+<<<<<<< HEAD
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
+=======
+  "eventList":[],
+>>>>>>> intento
   "managed":true,
   "name":"Ob_Yema",
   "overriddenProperties":[],
   "parent":{
+<<<<<<< HEAD
     "name":"sprites",
     "path":"sprites.yyp",
+=======
+    "name":"Enemigos",
+    "path":"folders/Objetos/Enemigos.yy",
+>>>>>>> intento
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +39,13 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
+<<<<<<< HEAD
     "name":"Sp_Yema",
     "path":"sprites/Sp_Yema/Sp_Yema.yy",
+=======
+    "name":"SpYema",
+    "path":"sprites/SpYema/SpYema.yy",
+>>>>>>> intento
   },
   "spriteMaskId":null,
   "visible":true,
