@@ -109,7 +109,6 @@
     {"id":{"name":"SprSonicCorriendo","path":"sprites/SprSonicCorriendo/SprSonicCorriendo.yy",},},
     {"id":{"name":"SprSonicJump","path":"sprites/SprSonicJump/SprSonicJump.yy",},},
     {"id":{"name":"SprVictoria","path":"sprites/SprVictoria/SprVictoria.yy",},},
-    {"id":{"name":"SpYema","path":"sprites/SpYema/SpYema.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
