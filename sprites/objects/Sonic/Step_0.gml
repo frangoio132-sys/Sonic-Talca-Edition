@@ -30,7 +30,6 @@
 }
 #endregion 
 
-<<<<<<< HEAD
 #region Daño enemigos
 //Huebot
 if (place_meeting(x+ sign(velocidadX),y - 1, Huebot))
@@ -101,6 +100,29 @@ if(!Herido)
 		if (image_alpha>=1)
 		parpadeando=true;
 }
+//plumas
+if (place_meeting(x+ sign(velocidadX),y - 1, plumas))
+{
+	Golpe()
+}
+
+
+if(!Herido)
+{
+	if (parpadeando)
+	{
+		image_alpha -= 0.1;
+		
+		if (image_alpha<=0.1)
+		parpadeando=false;
+	}
+}else
+{
+	image_alpha += 0.1;
+		
+		if (image_alpha>=1)
+		parpadeando=true;
+}
 
 #endregion
 
@@ -108,12 +130,13 @@ if (vspeed<-28){
 vspeed=-28;
 }
 if(coleccionable>=67){
-=======
+
 if(coleccionable>=70){
->>>>>>> parent of 40b289a (Eliminado else)
+
 	room_goto(RoomVictoria)
 	
 }
 if (Svida==0){
 room_goto(RoomDerrota)
+}
 }
