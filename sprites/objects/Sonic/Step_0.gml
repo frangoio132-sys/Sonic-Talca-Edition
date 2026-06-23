@@ -128,7 +128,7 @@ if(!Herido)
 if (vspeed<-28){
 vspeed=-28;
 }
-if(coleccionable>=67){
+if(!instance_exists(Jefe)){
 	room_goto(RoomVictoria)
 	
 }
