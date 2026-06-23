@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Checkpoint",
+  "%Name":"plumas",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Checkpoint",
+  "name":"plumas",
   "overriddenProperties":[],
   "parent":{
-    "name":"Terreno",
-    "path":"folders/Objetos/Terreno.yy",
+    "name":"Enemigos",
+    "path":"folders/Objetos/Enemigos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sp_PuestoCompleto",
-    "path":"sprites/Sp_PuestoCompleto/Sp_PuestoCompleto.yy",
+    "name":"Sp_Plumas",
+    "path":"sprites/Sp_Plumas/Sp_Plumas.yy",
   },
   "spriteMaskId":null,
   "visible":true,

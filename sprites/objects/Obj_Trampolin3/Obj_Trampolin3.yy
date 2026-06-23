@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"ObVida",
-  "eventList":[],
+  "%Name":"Obj_Trampolin3",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"ObVida",
+  "name":"Obj_Trampolin3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Coleccionables",
-    "path":"folders/Objetos/Coleccionables.yy",
+    "name":"Terreno",
+    "path":"folders/Objetos/Terreno.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sp_Trampolin",
+    "path":"sprites/Sp_Trampolin/Sp_Trampolin.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
