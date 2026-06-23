@@ -16,7 +16,6 @@ if (place_meeting(x + velocidadX, y, Ob_Limite)){
 	}
 velocidadX=0;
 direcc=-1;
-
 }
 
 if (place_meeting(x, y + velocidadY, Ob_muro)){

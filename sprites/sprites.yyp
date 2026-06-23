@@ -64,6 +64,7 @@
     {"id":{"name":"ObjBotonVolver","path":"objects/ObjBotonVolver/ObjBotonVolver.yy",},},
     {"id":{"name":"Object5","path":"objects/Object5/Object5.yy",},},
     {"id":{"name":"ObTerrenoElevado","path":"objects/ObTerrenoElevado/ObTerrenoElevado.yy",},},
+    {"id":{"name":"ObVida","path":"objects/ObVida/ObVida.yy",},},
     {"id":{"name":"Pinchos","path":"objects/Pinchos/Pinchos.yy",},},
     {"id":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},},
     {"id":{"name":"RoomControles","path":"rooms/RoomControles/RoomControles.yy",},},
