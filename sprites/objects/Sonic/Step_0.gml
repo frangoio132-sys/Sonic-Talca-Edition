@@ -30,7 +30,7 @@
 }
 #endregion 
 
-<<<<<<< HEAD
+
 #region Daño enemigos
 //Huebot
 if (place_meeting(x+ sign(velocidadX),y - 1, Huebot))
@@ -108,9 +108,7 @@ if (vspeed<-28){
 vspeed=-28;
 }
 if(coleccionable>=67){
-=======
-if(coleccionable>=70){
->>>>>>> parent of 40b289a (Eliminado else)
+
 	room_goto(RoomVictoria)
 	
 }

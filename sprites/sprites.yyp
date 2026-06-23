@@ -56,6 +56,7 @@
     {"id":{"name":"Obj_Checkpoint","path":"objects/Obj_Checkpoint/Obj_Checkpoint.yy",},},
     {"id":{"name":"Obj_Trampolin","path":"objects/Obj_Trampolin/Obj_Trampolin.yy",},},
     {"id":{"name":"Obj_Trampolin2","path":"objects/Obj_Trampolin2/Obj_Trampolin2.yy",},},
+    {"id":{"name":"Obj_Trampolin3","path":"objects/Obj_Trampolin3/Obj_Trampolin3.yy",},},
     {"id":{"name":"ObjBotonControles","path":"objects/ObjBotonControles/ObjBotonControles.yy",},},
     {"id":{"name":"ObjBotonJugar","path":"objects/ObjBotonJugar/ObjBotonJugar.yy",},},
     {"id":{"name":"ObjBotonParent","path":"objects/ObjBotonParent/ObjBotonParent.yy",},},
