@@ -100,13 +100,36 @@ if(!Herido)
 		if (image_alpha>=1)
 		parpadeando=true;
 }
+//Yema
+if (place_meeting(x+ sign(velocidadX),y - 1, Ob_Yema))
+{
+	Golpe()
+}
+
+
+if(!Herido)
+{
+	if (parpadeando)
+	{
+		image_alpha -= 0.1;
+		
+		if (image_alpha<=0.1)
+		parpadeando=false;
+	}
+}else
+{
+	image_alpha += 0.1;
+		
+		if (image_alpha>=1)
+		parpadeando=true;
+}
 
 #endregion
 
 if (vspeed<-28){
 vspeed=-28;
 }
-if(!instance_exists(Jefe)){
+if(coleccionable>=67){
 	room_goto(RoomVictoria)
 	
 }
