@@ -8,8 +8,8 @@
   "name":"Ob_Yema",
   "overriddenProperties":[],
   "parent":{
-    "name":"sprites",
-    "path":"sprites.yyp",
+    "name":"Enemigos",
+    "path":"folders/Objetos/Enemigos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
