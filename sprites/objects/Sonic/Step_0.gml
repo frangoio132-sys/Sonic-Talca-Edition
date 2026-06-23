@@ -15,7 +15,7 @@
 		
 		sprite_index=SprSonicCorriendo;
 	} else {
-		sprite_index=SprSonic	
+		sprite_index=SprSonic;
 	}
 	if (sonic=0){
 	velocidad=5;
@@ -100,29 +100,6 @@ if(!Herido)
 		if (image_alpha>=1)
 		parpadeando=true;
 }
-//plumas
-if (place_meeting(x+ sign(velocidadX),y - 1, plumas))
-{
-	Golpe()
-}
-
-
-if(!Herido)
-{
-	if (parpadeando)
-	{
-		image_alpha -= 0.1;
-		
-		if (image_alpha<=0.1)
-		parpadeando=false;
-	}
-}else
-{
-	image_alpha += 0.1;
-		
-		if (image_alpha>=1)
-		parpadeando=true;
-}
 
 #endregion
 
@@ -130,13 +107,9 @@ if (vspeed<-28){
 vspeed=-28;
 }
 if(coleccionable>=67){
-
-if(coleccionable>=70){
-
 	room_goto(RoomVictoria)
 	
 }
 if (Svida==0){
 room_goto(RoomDerrota)
-}
 }

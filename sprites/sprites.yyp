@@ -52,7 +52,6 @@
     {"id":{"name":"Ob_PlazaMaule","path":"objects/Ob_PlazaMaule/Ob_PlazaMaule.yy",},},
     {"id":{"name":"Ob_Subsuelo","path":"objects/Ob_Subsuelo/Ob_Subsuelo.yy",},},
     {"id":{"name":"Ob_SueloTalca","path":"objects/Ob_SueloTalca/Ob_SueloTalca.yy",},},
-    {"id":{"name":"Ob_Yema","path":"objects/Ob_Yema/Ob_Yema.yy",},},
     {"id":{"name":"ObCajaSorpresa","path":"objects/ObCajaSorpresa/ObCajaSorpresa.yy",},},
     {"id":{"name":"Obj_Checkpoint","path":"objects/Obj_Checkpoint/Obj_Checkpoint.yy",},},
     {"id":{"name":"Obj_Trampolin","path":"objects/Obj_Trampolin/Obj_Trampolin.yy",},},
@@ -66,7 +65,6 @@
     {"id":{"name":"ObjBotonVolver","path":"objects/ObjBotonVolver/ObjBotonVolver.yy",},},
     {"id":{"name":"ObTerrenoElevado","path":"objects/ObTerrenoElevado/ObTerrenoElevado.yy",},},
     {"id":{"name":"Pinchos","path":"objects/Pinchos/Pinchos.yy",},},
-    {"id":{"name":"plumas","path":"objects/plumas/plumas.yy",},},
     {"id":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},},
     {"id":{"name":"RoomControles","path":"rooms/RoomControles/RoomControles.yy",},},
     {"id":{"name":"RoomDerrota","path":"rooms/RoomDerrota/RoomDerrota.yy",},},
@@ -91,7 +89,6 @@
     {"id":{"name":"Sp_PantallaTeclas","path":"sprites/Sp_PantallaTeclas/Sp_PantallaTeclas.yy",},},
     {"id":{"name":"Sp_Pincho","path":"sprites/Sp_Pincho/Sp_Pincho.yy",},},
     {"id":{"name":"Sp_PlazaMaule","path":"sprites/Sp_PlazaMaule/Sp_PlazaMaule.yy",},},
-    {"id":{"name":"Sp_Plumas","path":"sprites/Sp_Plumas/Sp_Plumas.yy",},},
     {"id":{"name":"Sp_Poste","path":"sprites/Sp_Poste/Sp_Poste.yy",},},
     {"id":{"name":"Sp_PuestoCompleto","path":"sprites/Sp_PuestoCompleto/Sp_PuestoCompleto.yy",},},
     {"id":{"name":"Sp_Subsuelo","path":"sprites/Sp_Subsuelo/Sp_Subsuelo.yy",},},
@@ -99,11 +96,6 @@
     {"id":{"name":"Sp_TerrenoElevado","path":"sprites/Sp_TerrenoElevado/Sp_TerrenoElevado.yy",},},
     {"id":{"name":"Sp_Trampolin","path":"sprites/Sp_Trampolin/Sp_Trampolin.yy",},},
     {"id":{"name":"Sp_TrampolinS","path":"sprites/Sp_TrampolinS/Sp_TrampolinS.yy",},},
-<<<<<<< Updated upstream
-    {"id":{"name":"Sp_vida","path":"sprites/Sp_vida/Sp_vida.yy",},},
-=======
-    {"id":{"name":"Sp_Yema","path":"sprites/Sp_Yema/Sp_Yema.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"SprBoton","path":"sprites/SprBoton/SprBoton.yy",},},
     {"id":{"name":"SprDerrota","path":"sprites/SprDerrota/SprDerrota.yy",},},
     {"id":{"name":"SprHitboxSonic","path":"sprites/SprHitboxSonic/SprHitboxSonic.yy",},},
