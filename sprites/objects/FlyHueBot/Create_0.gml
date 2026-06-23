@@ -9,6 +9,6 @@ velocidadX=0;
 velocidadY=0;
 
 // Variables de detección
-rango_deteccion = 64; // Margen de error en píxeles 
+rango_deteccion = 32; // Margen de error en píxeles 
 tiempo_disparo = 60;  // Tiempo en frames 
 puede_disparar = true;
