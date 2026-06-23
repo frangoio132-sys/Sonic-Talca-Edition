@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"Ob_Yema",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Sonic","path":"objects/Sonic/Sonic.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"Ob_Yema",
   "overriddenProperties":[],
   "parent":{
-    "name":"sprites",
-    "path":"sprites.yyp",
+    "name":"Enemigos",
+    "path":"folders/Objetos/Enemigos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
