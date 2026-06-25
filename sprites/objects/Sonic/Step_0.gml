@@ -131,8 +131,9 @@ vspeed=-28;
 }
 if(!instance_exists(Jefe)){
 	room_goto(RoomVictoria)
-	
+	audio_play_sound(Sd_victoria,10,true);
 }
 if (Svida==0){
 room_goto(RoomDerrota)
+udio_play_sound(Sd_derrota,10,true);
 }
