@@ -40,7 +40,8 @@ if (instance_exists(Sonic)) {
         if (puede_disparar) {
             var bala = instance_create_layer(x, y + 16, "Instances", Ob_Yema);
 			bala.direction = 270;
-			bala.speed = 4;    
+			bala.speed = 4;
+			audio_play_sound(Sd_disparo,10,false);
             puede_disparar = false;
             alarm[0] = tiempo_disparo; 
         }

@@ -26,6 +26,7 @@
 	if (keyboard_check_pressed(vk_space)){
 		if (collision_rectangle(x-8,y,x+8,y+1,Ob_muro,false,false) && vspeed==0){
 		 vspeed = -9;
+		 audio_play_sound(Sd_salto,10,false);
 	}
 }
 #endregion 
@@ -131,9 +132,9 @@ vspeed=-28;
 }
 if(!instance_exists(Jefe)){
 	room_goto(RoomVictoria)
-	audio_play_sound(Sd_victoria,10,true);
+	audio_play_sound(Sd_victoria,10,false);
 }
 if (Svida==0){
     room_goto(RoomDerrota)
-    audio_play_sound(Sd_derrota,10,true);
+    audio_play_sound(Sd_derrota,10,false);
 }
