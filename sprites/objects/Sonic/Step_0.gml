@@ -134,6 +134,6 @@ if(!instance_exists(Jefe)){
 	audio_play_sound(Sd_victoria,10,true);
 }
 if (Svida==0){
-room_goto(RoomDerrota)
-udio_play_sound(Sd_derrota,10,true);
+    room_goto(RoomDerrota)
+    audio_play_sound(Sd_derrota,10,true);
 }
