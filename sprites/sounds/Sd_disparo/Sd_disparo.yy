@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"Sd_disparo",
   "parent":{
-    "name":"sprites",
-    "path":"sprites.yyp",
+    "name":"Sonidos",
+    "path":"folders/Sonidos.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

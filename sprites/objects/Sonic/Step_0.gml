@@ -140,3 +140,7 @@ if (Svida==0){
 	audio_stop_all()
     audio_play_sound(Sd_derrota,10,false);
 }
+
+if (keyboard_check_pressed(vk_escape)){
+game_end();	
+}
