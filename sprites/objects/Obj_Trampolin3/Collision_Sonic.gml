@@ -1,1 +1,1 @@
-other.vspeed -=20;
+other.vspeed -=22;
