@@ -79,7 +79,7 @@ if(!Herido)
 		parpadeando=true;
 }
 //Jefe
-if (place_meeting(x+ sign(velocidadX),y - 2, Jefe))
+if (place_meeting(x+ sign(velocidadX),y - 6, Jefe))
 {
 	Golpe()
 }
