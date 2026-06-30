@@ -116,6 +116,7 @@
     {"id":{"name":"Sprite38_1","path":"sprites/Sprite38_1/Sprite38_1.yy",},},
     {"id":{"name":"Sprite38_2","path":"sprites/Sprite38_2/Sprite38_2.yy",},},
     {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
+    {"id":{"name":"Sprite41","path":"sprites/Sprite41/Sprite41.yy",},},
     {"id":{"name":"SprPlataforma","path":"sprites/SprPlataforma/SprPlataforma.yy",},},
     {"id":{"name":"SprSonic","path":"sprites/SprSonic/SprSonic.yy",},},
     {"id":{"name":"SprSonicCorriendo","path":"sprites/SprSonicCorriendo/SprSonicCorriendo.yy",},},
