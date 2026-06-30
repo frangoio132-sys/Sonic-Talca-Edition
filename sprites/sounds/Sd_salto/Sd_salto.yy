@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"Sd_salto",
   "parent":{
-    "name":"sprites",
-    "path":"sprites.yyp",
+    "name":"Sonidos",
+    "path":"folders/Sonidos.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
