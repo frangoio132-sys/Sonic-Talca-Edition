@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Sd_fondo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":125.18401,
+  "exportDir":"",
+  "name":"Sd_fondo",
+  "parent":{
+    "name":"sprites",
+    "path":"sprites.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Sd_fondo.mp3",
+  "volume":0.7,
+}

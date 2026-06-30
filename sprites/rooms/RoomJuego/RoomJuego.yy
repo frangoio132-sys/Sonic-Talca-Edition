@@ -298,6 +298,7 @@
     {"name":"inst_6F90A7C1","path":"rooms/RoomJuego/RoomJuego.yy",},
     {"name":"inst_1284BC0D","path":"rooms/RoomJuego/RoomJuego.yy",},
     {"name":"inst_1EBFC488","path":"rooms/RoomJuego/RoomJuego.yy",},
+    {"name":"inst_E728BC","path":"rooms/RoomJuego/RoomJuego.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -594,6 +595,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6F90A7C1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F90A7C1","objectId":{"name":"ObTerrenoElevado","path":"objects/ObTerrenoElevado/ObTerrenoElevado.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":7622.0,"y":237.0,},
         {"$GMRInstance":"v4","%Name":"inst_1284BC0D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1284BC0D","objectId":{"name":"Ob_muro","path":"objects/Ob_muro/Ob_muro.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":7622.0,"y":237.0,},
         {"$GMRInstance":"v4","%Name":"inst_1EBFC488","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EBFC488","objectId":{"name":"Obj_Trampolin3","path":"objects/Obj_Trampolin3/Obj_Trampolin3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":2.5,"x":7599.0,"y":177.0,},
+        {"$GMRInstance":"v4","%Name":"inst_E728BC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E728BC","objectId":{"name":"Object32","path":"objects/Object32/Object32.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_77C8CD62","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_77C8CD62","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Sp_Nube","path":"sprites/Sp_Nube/Sp_Nube.yy",},"x":160.0,"y":64.0,},
